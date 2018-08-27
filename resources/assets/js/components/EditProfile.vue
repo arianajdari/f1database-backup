@@ -98,6 +98,7 @@
         border-bottom: 1px solid black;
         border-radius: 2px;
         width:100%;
+        
         margin-bottom: 10px;
     }
 </style>
