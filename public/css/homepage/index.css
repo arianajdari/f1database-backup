@@ -1,0 +1,105 @@
+*{
+    padding:0;
+    margin:0;
+    border:0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+#homepage_index_background{
+	position: relative;
+	width:100%;
+	overflow:hidden;
+}
+
+#homepage_index_background img{
+	position: absolute;
+    top: 0; 
+    bottom:0; 
+    left: 0; 
+    right:0;
+    margin: auto;
+    filter: brightness(50%);
+}
+
+#homepage_index_background #dashboard_link{
+	position: absolute; 
+	right: 10px;
+	top:20px;
+}
+
+#homepage_index_background #dashboard_link a{
+	color: white;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 30px;
+}
+
+#homepage_index_background #dashboard_link a:hover{
+	color: #335BFF;
+	text-decoration: underline;
+}
+
+#homepage_index_background #center_text{
+	width: 80%;
+	position: absolute;
+}
+
+#homepage_index_background #center_text h1{
+	text-align: center;
+	font-size: 2.5em;
+	font-weight: 600;
+	color:white;
+}
+
+#homepage_index_background #center_text h3{
+	text-align: center;
+	font-weight: 600;
+	color:white;
+}
+
+#homepage_index_background #center_text #form{
+	margin: 20px auto 0 auto;
+	width:70%;
+	height:70%;
+	background-color: white;
+	border-radius: 5px;
+}
+
+#homepage_index_background #center_text #form .input_name{
+	width:100%;
+	height:40px;
+	font-size:20px;
+	color:black;
+	font-weight: 600;
+	padding:10px;
+}
+
+#homepage_index_background #center_text #form .input_field{
+	width: 95%;
+	margin-left:10px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: 600;
+}
+
+#homepage_index_background #center_text #form .error_field{
+	color:red;
+	font-size: 12px;
+	padding-left: 10px;
+	font-weight: 600;
+}
+
+#homepage_index_background #center_text #form button{
+	width:120px;
+	height:40px;
+	color:white;
+	background-color: red;
+	font-weight: 600;
+	border-radius: 5px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
